@@ -1,0 +1,23 @@
+PHP:
+
+Conecta ao banco (include "db.php").
+
+Pega os dados (SELECT ano, valor).
+
+Cria dois arrays: $anos e $valores.
+
+HTML:
+
+<canvas id="salarioChart"> → área do gráfico.
+
+JS (Chart.js):
+
+type: 'line' → gráfico de linha.
+
+labels: anos → eixo X (anos).
+
+data: valores → eixo Y (salário mínimo).
+
+backgroundColor, borderColor → cores do gráfico.
+
+tension: 0.3 → curva suave.
