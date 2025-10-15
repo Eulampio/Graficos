@@ -20,6 +20,8 @@ while ($row = $result->fetch_assoc()) {
     <meta charset="UTF-8">
     <title>Gráfico Salário Mínimo</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
 </head>
 <body>
     <h1>Evolução do Salário Mínimo</h1>
